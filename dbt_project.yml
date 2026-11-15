@@ -39,3 +39,24 @@ models:
 
         dot_311:
           +materialized: table
+
+    group4_milestone4:
+      +materialized: table
+
+      staging:
+        +schema: group4_staging
+
+      marts:
+        +schema: group4_warehouse
+
+        conformed:
+          +materialized: table
+
+        dob_permits:
+          +materialized: table
+
+        nyc311_complaints:
+          +materialized: table
+
+
+
