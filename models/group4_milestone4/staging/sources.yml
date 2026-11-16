@@ -1,0 +1,18 @@
+
+version: 2
+
+sources:
+  - name: raw
+    description: Raw NYC Open Data for Group 4
+    database: apu-cis9440-baruch
+    schema: group4_project
+    tables:
+      - name: dob_permit_raw
+        description: |
+          NYC DOB Permit Issuance data.
+          One row per permit issuance.
+
+      - name: nyc311_construction_raw
+        description: |
+          NYC 311 Construction and Plumbing complaints.
+          One row per service request.
